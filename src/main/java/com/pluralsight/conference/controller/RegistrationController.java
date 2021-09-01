@@ -11,6 +11,7 @@ import java.util.Map;
 @Controller
 public class RegistrationController {
 
+
     @GetMapping("registration")
     public String getRegistration(@ModelAttribute("registration")Registration registration){
         return "registration";
